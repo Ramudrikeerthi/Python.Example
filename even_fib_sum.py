@@ -1,0 +1,1 @@
+def even_fib_sum(limit): a, b = 1, 2 # first two Fibonacci numbers total = 0 while a <= limit: if a % 2 == 0: total += a a, b = b, a + b # move to next Fibonacci numbers return total it = iter(sys.stdin.read().strip().split()) t = int(next(it)) out = [] for _ in range(t): n = int(next(it)) out.append(str(even_fib_sum(n))) print("\n".join(out))
