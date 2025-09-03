@@ -1,15 +1,13 @@
-# Sum of Multiples Problem
+## Even Fibonacci Sum
 
-## Problem
-Find the sum of all natural numbers below N that are multiples of 3 or 5.
+### Problem
+Find the sum of even-valued Fibonacci numbers whose values do not exceed `N`.
 
-## Input
-First line: number of test cases `t`  
-Next `t` lines: each line contains integer `N`
+### Input
+- First line: an integer `t` (number of test cases)  
+- Next `t` lines: each contains an integer `N`  
 
-## Output
-For each test case, print the sum of multiples.
+### Output
+For each test case, print the sum of even Fibonacci terms not exceeding `N`.
 
-## Approach
-We use the formula for sum of multiples and inclusion-exclusion principle:
-sum = sum(3) + sum(5) - sum(15)
+### Sample Input
